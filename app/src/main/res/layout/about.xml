@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+
+        <FrameLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="261dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ef1315c2"
+            android:backgroundTint="#ff782887">
+
+            <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="151dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView8"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:text="          Android based e-learning multimedia system for bookeeping nciii. The application provides bookeeping exercises and answers which students can use as a guide in making their homework, quizzes, or activities in school." />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/textView9"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal|top"
+                android:text="ABOUT" />
+        </FrameLayout>
+        <Button
+            android:layout_marginTop="15dp"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="136dp"
+            android:layout_height="61dp"
+            android:text="MENU"
+            android:id="@+id/button12"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonOnclick" />
+
+
+    </LinearLayout>
+</RelativeLayout>

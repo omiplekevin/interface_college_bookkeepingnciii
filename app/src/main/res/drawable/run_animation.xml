@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/mn"
+        android:duration="400"
+        />
+    <item
+        android:drawable="@drawable/mna"
+        android:duration="400"
+        />
+
+    <item
+        android:drawable="@drawable/mnas"
+        android:duration="400"
+        />
+    <item
+        android:drawable="@drawable/mn"
+        android:duration="400"
+        />
+
+
+</animation-list>

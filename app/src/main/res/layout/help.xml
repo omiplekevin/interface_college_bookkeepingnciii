@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootRL"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#efc20b11"
+            android:layout_weight="0.27">
+
+
+            <TextView
+                android:layout_marginBottom="50dp"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:text="
+                        HOW TO PLAY :"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_weight="0.10"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="375dp"
+                android:layout_height="183dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textAlignment="center"
+                android:text="
+        Press PLAY button then Select NEW GAME and choose GAME MODE then hit START THE GAME button."
+                android:id="@+id/textView9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:typeface="normal" />
+
+        </FrameLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonOnClick"
+            android:layout_weight="0.06" />
+
+
+    </LinearLayout>
+</RelativeLayout>

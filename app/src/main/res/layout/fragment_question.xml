@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!--<TextView
+        android:id="@+id/entryQId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:id="@+id/entryQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="22sp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:padding="25dp">
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/correctAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#009115"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
